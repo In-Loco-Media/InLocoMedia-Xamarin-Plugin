@@ -1,0 +1,15 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr path="/api/package[@name='com.inlocomedia.android.core.communication.listeners']/interface[@name='JsonRequestListener']/method[@name='onRequestFinished']" name="managedName">onJsonRequestFinished</attr>
+  <attr path="/api/package[@name='com.inlocomedia.android.core.communication.listeners']/interface[@name='JsonRequestListener']/method[@name='onRequestFailed']" name="managedName">onJsonRequestFailed</attr>
+
+  <attr path="/api/package[@name='com.inlocomedia.android.core.communication.listeners']/interface[@name='RetailDataUploadListener']/method[@name='onRequestFinished']" name="managedName">onRetailRequestFinished</attr>
+  <attr path="/api/package[@name='com.inlocomedia.android.core.communication.listeners']/interface[@name='RetailDataUploadListener']/method[@name='onRequestFailed']" name="managedName">onRetailRequestFailed</attr>
+</metadata>
